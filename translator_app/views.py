@@ -5,8 +5,6 @@ from unittest import result
 from django.shortcuts import render,HttpResponse
 from googletrans import Translator
 
-def index(request):
-    return HttpResponse("this is home page")
 
 def traslate(request):
     result=""
